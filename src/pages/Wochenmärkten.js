@@ -72,7 +72,10 @@ const Wochenmarkten = () => {
                 <p className={styles.importantTxt}>{selected.info}</p>
               }
               <p>
-                Besuchen Sie uns jeden Montag auf dem Biomarkt in <b>{selected.name}</b> zwischen <b>{selected.timeStart}</b> und <b>{selected.timeEnd}</b> Uhr. Dort können Sie unsere vielfältige Auswahl an frischen und hochwertigen Produkten entdecken. Wir sind stolz darauf, unseren Kunden nur die besten Käsesorten, Fleisch- und Backwaren anzubieten, die sorgfältig von uns ausgewählt wurden. Wir freuen uns darauf, Sie persönlich kennenzulernen und Sie von der Qualität unserer Produkte zu überzeugen. Kommen Sie vorbei und erleben Sie den Geschmack von Friesische Feinkost!
+                Besuchen Sie uns jeden {selected.day} auf dem Biomarkt in <b>{selected.name}</b> zwischen <b>{selected.timeStart}</b> und <b>{selected.timeEnd}</b> Uhr. 
+                Dort können Sie unsere vielfältige Auswahl an frischen und hochwertigen Produkten entdecken. Wir sind stolz darauf, unseren Kunden nur die besten Käsesorten, Fleisch- und Backwaren anzubieten, 
+                die sorgfältig von uns ausgewählt wurden. Wir freuen uns darauf, Sie persönlich kennenzulernen und Sie von der Qualität unserer Produkte zu überzeugen. Kommen Sie vorbei und erleben Sie den Geschmack von 
+                Friesische Feinkost!
               </p>
             </div>
           }

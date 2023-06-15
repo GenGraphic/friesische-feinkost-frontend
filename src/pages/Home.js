@@ -62,7 +62,7 @@ export default function Home() {
           </Col>
           <Col className='col-12 col-xl-6 d-flex flex-column justify-content-center'>
             <p className='titleR m-0'>Friesische Feinkost</p>
-            <p className='.subtitleR text-end display-6'>Alles mit Liebe handgemacht</p>
+            <p className='.subtitleR text-center display-6'>Aus Liebe zum Genuß</p>
           </Col> 
         </Row>
 
