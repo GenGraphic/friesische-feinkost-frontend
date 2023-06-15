@@ -1,0 +1,96 @@
+.body {
+    background-color: #F9F9EF;
+    box-shadow: 0 0 10px 5px #000000;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.favImg {
+    width: 150px;
+}
+.favCard {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #00000058;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    padding: 0px !important;
+    min-height: 150px;
+}
+.favParagraph {
+    font-size: 0.9rem;
+}
+.favImg {
+    border-radius: 10px 0px 30px 0px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-right: 2px solid #67022C;
+    border-bottom: 2px solid #67022C;
+}
+.favtitle {
+    font-weight: bold;
+}
+.favPriceCont {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #FFF;
+    padding: 5px;
+    background-color: #67022C;
+    border-radius: 10px 0px 10px 0px;
+}
+.categorySelected {
+    background-color: #67022C;
+    color: #FFF;
+    padding: 5px;
+    min-width: 180px;
+    max-width: fit-content;
+    height: 30px;
+    border: 1px solid #67022C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+.categoryCont {
+    background-color: #FFF;
+    padding: 5px;
+    min-width: 180px;
+    max-width: fit-content;
+    height: 30px;
+    border: 1px solid #67022C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+.categoryCont:hover, .categorySelected:hover {
+    background-color: #67022C;
+    color: #FFF;
+    cursor: pointer;
+}
+.cardItem {
+    border-radius: 10px;
+    border: 1px solid #00000058;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 250px;
+}
+.cardImg {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #67022C;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.heroSection {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+}
+.galeryImg {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid #67022c;
+}
+.teamImg {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+}
+.overlayImg {
+    width: 100%;
+    height: 100%;
+    background-color: #00000058;
+}

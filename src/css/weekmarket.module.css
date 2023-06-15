@@ -1,0 +1,23 @@
+.mainBody {
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+    min-height: 500px;
+}
+.tab {
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+.tab:hover {
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(103,2,44,0.8); 
+    box-shadow: 0px 10px 15px 0px rgba(103,2,44,0.8);
+    cursor: pointer;
+}
+.importantTxt {
+    background-color: #67022c;
+    color: #FFF;
+    padding: 5px;
+}
